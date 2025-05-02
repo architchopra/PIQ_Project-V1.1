@@ -7,10 +7,10 @@
             try
                 {
                 // Add your app secret Key here . The app_key looks like : 00000000-0000-0000-0000-000000000000:00000000-0000-0000-0000-000000000000
-                string appSecretKey = "1bfa74ea-189e-0c4b-448b-652e64b74405:b20bc087-3b20-e525-bbd4-47cefe302c89";
+                string appSecretKey = "";
 
                 // Set the environment the app needs to run in here
-                tt_net_sdk.ServiceEnvironment environment = tt_net_sdk.ServiceEnvironment.ProdLive;
+                tt_net_sdk.ServiceEnvironment environment = tt_net_sdk.ServiceEnvironment.ProdSim;
 
                 // Select the mode in which you wish to run -- Client (outside the TT datacenter)  
                 //                                          or Server (on a dedicated machine inside TT datacenter)
